@@ -76,3 +76,33 @@ header a:hover {
     background: var(--light-color);
     color: var(--dark-color);
 }
+
+main {
+    padding: 20px;
+}
+
+.selector-card {
+    border: 1px solid var(--dark-color);
+    border-radius: 20px 0 20px 0;
+    box-shadow: 2px 2px 5px var(--shadow-color);
+    text-align: center;
+    background: white;
+    float: left;
+    margin: 10px;
+    width: 300px;
+    padding: 20px 10px 10px 10px;
+}
+
+.selector-card p {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid var(--dark-color);
+    padding: 10px;
+}
+
+.selector-card code {
+    font-family: "Courier Prime", monospace;
+    color: var(--accent-color);
+    display: block;
+    padding: 10px;
+}
