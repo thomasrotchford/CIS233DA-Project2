@@ -35,3 +35,44 @@ h2 {
 code {
     font-family: "Courier Prime", monospace;
 }
+
+body {
+    background: var(--light-color);
+    color: var(--dark-color);
+    font-family: "Comic Neue", sans-serif;
+}
+
+h1,
+h2 {
+    font-family: "Tinos", serif;
+    color: var(--heading-color);
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    background: var(--dark-color);
+    color: var(--light-color);
+}
+
+header h1,
+header nav {
+    float: left;
+}
+
+header h1 {
+    margin: 20px 0 0 20px;
+    color: var(--light-color);
+}
+
+header a {
+    display: block;
+    color: var(--light-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+header a:hover {
+    background: var(--light-color);
+    color: var(--dark-color);
+}
